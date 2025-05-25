@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Memory</title>
+    <link rel="stylesheet" href="Memory CSS.css">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <script src="Memory JS.js" defer></script>
+</head>
+<strong class="d-flex justify-content-center h1">JOC DE MEMORIA</strong>
+<body class="m-3">
+<label>Escull dificultat: </label>
+<select id="Seleccion">
+    <option value="facil">Facil</option>
+    <option value="mig">Mig</option>
+    <option value="dificil">Dificil</option>
+</select>
+<br><br>
+<button onclick="Start()">Començar lloc</button>
+
+<div id="Juego" class="d-flex row">
+    <div id="Taulell" class="col-9"></div>
+    <div class="col-1">
+        <div class="col-1"><strong>Contador: </strong> <p id="contador" ></p></div>
+        <div class="col-1"><strong>Record Facil: </strong> <p id="easy" ></p></div>
+        <div class="col-1"><strong>Record Medio: </strong> <p id="mid" ></p></div>
+        <div class="col-1"><strong>Record dificil: </strong> <p id="hard" ></p></div>
+    </div>
+
+</div>
+<p id="resultat"></p></p>
+</body>
+</html>
