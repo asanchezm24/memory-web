@@ -52,6 +52,6 @@ memory-web/
 - Temas visuales personalizados
 - Integración de login de usuario
 
-👨‍💻 Autor
+##👨‍💻 Autor
 **Adrián Sánchez Martín**
 Estudiante de DAMvi – Institut Sabadell
